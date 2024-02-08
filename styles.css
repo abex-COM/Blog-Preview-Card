@@ -1,0 +1,93 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+body{
+    padding: 3px;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+     justify-content: center;
+     align-items: center;
+     background-image: url(./imag/favicon-32x32.png);
+
+}
+.custom-background{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(47, 88%, 63%);    
+    padding: 20px;
+    height: 80vh;
+    width: 90%;
+    box-shadow: -1px 3px 20px grey;
+
+}
+.container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 2px black solid;
+    width: 300px;
+    align-items: center;
+    background: white;
+    border-radius: 20px;
+    justify-content: center;
+    box-shadow: 5px 5px ;
+
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+img{
+    border-radius: 15px;
+    width: 250px;
+    height: 150px;
+}
+
+button{
+    border:  2px hsl(47, 88%, 63%);
+    width: 80px;
+    height: 30px;
+    background:hsl(47, 88%, 63%) ;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.center{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.foundation{
+    color: hsl(47, 0%, 0%);
+    font-weight: 800;
+    font-size: 20px;
+}
+.about{
+    color: hsl(0, 7%, 45%);
+   
+}
+.name-image{
+    display: flex;
+    
+}
+.name{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-weight:600;
+    font-size: 16px;
+}
+.name-image img{
+    width: 50px;
+    height: 50px;
+}
